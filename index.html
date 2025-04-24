@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Book Publisherz</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/aos.css" /> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel='shortcut icon' href='./assets/img/favicon.webp' type='image/x-icon'>
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .slick-list:focus {
+            outline: none;
+        }
+
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            -webkit-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+
+        .slick-track:after {
+            clear: both;
+        }
+
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+
+        [dir='rtl'] .slick-slide {
+            float: right;
+        }
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+
+        .slick-initialized .slick-slide {
+            display: block;
+        }
+
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+
+        .slick-arrow.slick-hidden {
+            display: none;
+        }
+
+        html.lenis {
+            height: auto
+        }
+
+        .lenis.lenis-smooth {
+            scroll-behavior: auto
+        }
+
+        .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain
+        }
+
+        .lenis.lenis-stopped {
+            overflow: hidden
+        }
+
+        .lenis.lenis-scrolling iframe {
+            pointer-events: none
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bi-header">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="header-logo-wrapper">
+                    <img src="./assets/img/logo.png" class="img-fluid" loading="eager" />
+                </div>
+                <div class="nav-wrapper d-lg-flex d-none">
+                    <nav class="bi-nav">
+                        <ul class="d-flex mb-0 gap-5 justify-content-center align-items-center">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#services" data-scroll-to>Service</a></li>
+                            <li><a href="#portfolio" data-scroll-to>Portfolio</a></li>
+                            <li><a href="#contact" data-scroll-to>Contact</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#"><img src="./assets/img/header-phone.png" class="img-fluid phone-img"
+                            loading="eager " /></a>
+                    <a href="#" class="bi-btn"> Chat With Us</a>
+                </div>
+                <div class="d-lg-none d-md-block mobile-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="./assets/img/mobile-menu.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="bi-hero d-flex flex-column justify-content-center align-items-center">
+        <img src="./assets/img/hero-left-img.png"class="img-fluid hero-img left" loading="eager"/>
+        <img src="./assets/img/hero-right-img.png" class="img-fluid hero-img right" loading="eager" />
+        <div class="container text-center h-100">
+            <div class="hero-content">
+                <h1 class="theme-heading white">
+                    Complete <span class="highlight">Publishing</span>
+                    Help to Make Your <span class="highlight">Book Stand Out.</span>
+                </h1>
+                <p class="theme-para white d-none">You have a story to share, but don't know where to begin? Let American Book
+                    Publisherz handle the
+                    process while you focus on the journey ahead.</p>
+                <div class="d-flex gap-4 justify-content-center align-items-center d-none">
+                    <a href="#contact" data-scroll-to class="bi-btn">Get Started</a>
+                    <a href="#" class="bi-btn white">Live Chat</a>
+                </div>
+            </div>
+            <div class="hero-review-wrapper">
+                <div class="left-col">
+                    <img src="./assets/img/reviews/review-1.png" class="img-fluid" loading="eager" />
+                    <img src="./assets/img/reviews/review-2.png" class="img-fluid" loading="eager" />
+                </div>
+                <div class="right-col">
+                    <img src="./assets/img/reviews/review-3.png" class="img-fluid" loading="eager" />
+                    <img src="./assets/img/reviews/review-4.png" class="img-fluid" loading="eager" />
+                </div>
+            </div>
+            <div class="hero-form">
+                <form class="bi-form">
+                    <h2 class="theme-heading">
+                        Let's Get Your Story <span class="theme-color">Started!</span>
+                    </h2>
+                    <input type="text" placeholder="Enter Your Name" name="name" required />
+                    <input type="email" placeholder="Enter Your Email" name="email" required />
+                    <input type="tel" placeholder="Enter Your Number" name="number" required />
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-service" id="services" data-scroll-to-href="services">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="service-content-wrapper">
+                        <h2 class="theme-heading service-anim">
+                            Children's <span class="theme-color">Book</span> <br>Illustration Services
+                        </h2>
+                        <!-- <h5 class="secondary-heading service-anim">
+                            
+                        </h5> -->
+                        <p class="theme-para service-anim">
+                            Looking for illustrations that will delight kids? Our service creates bright, fun pictures
+                            that make stories come alive. Each image is designed to capture young imaginations and make
+                            reading exciting and enjoyable. Want your children's book to stand out? Our talented artists
+                            make colourful, engaging illustrations that draw kids in and keep them eager to read more.
+                            Let us turn your story into a visual adventure they'll love!
+                        </p>
+                        <div class="service-anim">
+                            <a href="#" class="bi-btn z-3" 
+                            data-bs-toggle="modal" data-bs-target="#getStarted"> Get Started </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="service-img-wrapper">
+                        <img src="./assets/img/service-img.png" class="img-fluid service-main-anim" loading="lazy" />
+                        <div class="overlays-img one service-pop-anim">
+                            <img src="./assets/img/service-1.png" class="img-fluid" loading="lazy" />
+                            <p class="theme-para">Smooth Uploads</p>
+                        </div>
+                        <div class="overlays-img two service-pop-anim">
+                            <img src="./assets/img/service-2.png" class="img-fluid" loading="lazy" />
+                            <p class="theme-para">Sales Surge</p>
+                        </div>
+                        <div class="overlays-img three service-pop-anim">
+                            <img src="./assets/img/service-3.png" class="img-fluid" loading="lazy" />
+                            <p class="theme-para">Custom Content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-cta">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="cta-img-wrapper">
+                        <img src="./assets/img/cta-img.png" class="img-fluid cta-img-anim" loading="lazy" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="cta-content-wrapper">
+                        <p class="theme-para big cta-anim">
+                            Have exciting ideas for a children's book? Share them with our team at American Book
+                            Publisherz, and let's bring your vision to life.
+                        </p>
+                        <h2 class="theme-heading cta-anim">
+                            Talk to Us Today!
+                        </h2>
+                        <div class="d-flex gap-4 justify-content-start align-items-center button-wrapper">
+                            <div class="cta-up-anim"><a href="#contact" data-scroll-to class="bi-btn">Get Started</a></div>
+                            <div class="cta-up-anim"><a href="#" class="bi-btn white">Live Chat</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-portfolio" id="portfolio" data-scroll-to-href="portfolio">
+        <div class="portfolio-wrapper">
+            <div class="portfolio-slider-1 portfolio-img-anim">
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-1.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-2.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-3.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-4.png" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-5.png" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+            <div class="portfolio-slider-2 portfolio-img-anim" dir="rtl">
+                <div class="portfolio-item ">
+                    <img src="./assets/img/portfolio-6.jpg" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-7.jpg" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-8.jpg" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-9.jpg" class="img-fluid" loading="lazy" />
+                </div>
+                <div class="portfolio-item">
+                    <img src="./assets/img/portfolio-10.jpg" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-packages">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading package-anim">
+                    Affordable Excellence Quality Packages
+                </h2>
+                <p class="theme-para package-anim">
+                    Premium features and services without compromising on quality.
+                    Discover the perfect solution to meet your needs today.
+                </p>
+            </div>
+            <div class="row justify-content-center align-items-center d-md-flex d-none">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
+                    <div class="package-wrapper">
+                        <h5>
+                            Silver Package
+                        </h5>
+                        <h4>
+                            $699
+                        </h4>
+                        <p class="theme-para">
+                            BASIC EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO INTERNATIONAL BOOK
+                            PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon
+                            </li>
+                            <li>
+                                Ebook, and paperback
+                            </li>
+                            <li>
+                                Basic proofreading and spell check.
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout according to publishing standards.
+                            </li>
+                            <li>
+                                Basic book cover design.
+                            </li>
+                            <li>
+                                Up to 5 custom illustrations.
+                            </li>
+                            <li>
+                                Amazon optimization.
+                            </li>
+                            <li>
+                                ISBN and royalties protection for one edition.
+                            </li>
+                            <li>
+                                100% ownership rights retained by the author.
+                            </li>
+                        </ul>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-699"
+                        class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
+                    <div class="package-wrapper">
+                        <h5>
+                            Gold Package
+                        </h5>
+                        <h4>
+                            $1,199
+                        </h4>
+                        <p class="theme-para">
+                            BASIC EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO INTERNATIONAL BOOK
+                            PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon, and Barnes & Noble
+                            </li>
+                            <li>
+                                Ebook, and paperback
+                            </li>
+                            <li>
+                                Basic proofreading and spell check.
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout according to publishing standards.
+                            </li>
+                            <li>
+                                Basic book cover design.
+                            </li>
+                            <li>
+                                Up to 8 custom illustrations.
+                            </li>
+                            <li>
+                                Amazon optimization.
+                            </li>
+                            <li>
+                                ISBN and royalties protection for one edition.
+                            </li>
+                            <li>
+                                100% ownership rights retained by the author.
+                            </li>
+                        </ul>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-1199"
+                        class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
+                    <div class="package-wrapper">
+                        <h5>
+                            Platinum Package
+                        </h5>
+                        <h4>
+                            $1,800
+                        </h4>
+                        <p class="theme-para">
+                            EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO INTERNATIONAL BOOK PUBLISHING
+                            STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon and additional platforms like Apple Books and Barnes & Noble
+                            </li>
+                            <li>
+                                Comprehensive editing and proofreading.
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout according to publishing standards.
+                            </li>
+                            <li>
+                                Basic book cover design.
+                            </li>
+                            <li>
+                                Up to 12 custom illustrations.
+                            </li>
+                            <li>
+                                Enhanced Amazon optimization.
+                            </li>
+                            <li>
+                                Author and book profile setup.
+                            </li>
+                            <li>
+                                Finalized digital files for all editions.
+                            </li>
+                        </ul>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-1800"
+                        class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
+                    <div class="package-wrapper">
+                        <h5>
+                            Diamond Package
+                        </h5>
+                        <h4>
+                            $2,600
+                        </h4>
+                        <p class="theme-para">
+                            EDITING, FORMATTING, SPELL CHECK & TYPESETTING 
+                            ACCORDING TO INTERNATIONAL BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon (eBook, paperback, hardcover) and additional 
+                                platforms like Apple Books, Barnes & Noble,Ingram Spark, and 
+                                children's book platforms like KidLit.
+                            </li>
+                            <li>
+                                Professional editing, comprehensive proofreading, and spell check. Adjusting 
+                                the typesetting and layout according to publishing standards.
+                            </li>
+                            <li>
+                                High-quality custom book cover design.
+                            </li>
+                            <li>
+                                Up to 20 custom illustrations.
+                            </li>
+                            <li>
+                                Advanced Amazon optimization. Author and book profile setup.
+                            </li>
+                            <li>
+                                Finalized digital files for all editions.
+                            </li>
+                            <li>
+                                ISBN and royalties protection for three editions.
+                            </li>
+                        </ul>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-2600"
+                        class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
+                    <div class="package-wrapper">
+                        <h5>
+                            Titanum Package
+                        </h5>
+                        <h4>
+                            $3,800
+                        </h4>
+                        <p class="theme-para">
+                            EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO 
+                            INTERNATIONAL BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon (eBook, paperback, hardcover) and additional platforms 
+                                like Apple Books, Barnes & Noble Press, Ingram Spark, and children's book 
+                                platforms like KidLit and 3 more platforms.
+                            </li>
+                            <li>
+                                Professional editing, comprehensive proofreading, and spell check. 
+                                Adjusting the typesetting and layout according to publishing standards.
+                            </li>
+                            <li>
+                                High-quality custom book cover design.
+                            </li>
+                            <li>
+                                Up to 25 custom illustrations.
+                            </li>
+                            <li>
+                                Advanced Amazon optimization. Author and book profile setup.
+                            </li>
+                            <li>
+                                Finalized digital files for all editions.
+                            </li>
+                            <li>
+                                Enhanced author website setup with custom features.
+                            </li>
+                            <li>
+                                One months of social media management.
+                            </li>
+                            <li>
+                                Comprehensive social media marketing plan.
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
+                    <div class="package-wrapper">
+                        <h5>
+                            Horizon Package
+                        </h5>
+                        <h4>
+                            $12,000
+                        </h4>
+                        <p class="theme-para">
+                            EDITING, FORMATTING, SPELL CHECK & TYPESETTING 
+                            ACCORDING TO INTERNATIONAL BOOK PUBLISHING STANDARDS.
+                        </p>
+                        <ul>
+                            <li>
+                                Publishing on Amazon (eBook, paperback, hardcover) and all major 
+                                platforms including Apple Books, Google Books, Barnes & Noble Press, 
+                                Lulu, Ingram Spark, and children's book platforms like KidLit, 
+                                BookBub, and Goodreads.
+                            </li>
+                            <li>
+                                Adjusting the typesetting and layout according to publishing standards.
+                            </li>
+                            <li>
+                                Exclusive, high-quality custom book cover design.
+                            </li>
+                            <li>
+                                40 custom illustrations.
+                            </li>
+                            <li>
+                                Illustration storyboard creation.
+                            </li>
+                            <li>
+                                Professional-grade Amazon optimization.
+                            </li>
+                            <li>
+                                Author and book profile setup.
+                            </li>
+                            <li>
+                                Finalized digital files for all editions.
+                            </li>
+                            <li>
+                                High-production value book trailer video creation.
+                            </li>
+                            <li>
+                                Extensive social media marketing plan and execution.
+                            </li>
+                            <li>
+                                Six months of social media management.
+                            </li>
+                            <li>
+                                Press release and media outreach.
+                            </li>
+                            <li>
+                                Email marketing campaign setup and management.
+                            </li>
+                            <li>
+                                SEO optimization for the author website.
+                            </li>
+                            <li>
+                                Participation in book fairs and literary events (entry fees included).
+                            </li>
+                            <li>
+                                Personal marketing and PR manager for six months.
+                            </li>
+                            <li>
+                                Writing and research assistance.
+                            </li>
+                            <li>
+                                Sales guarantee of 5,000 copies within the first six months.
+                            </li>
+                            <li>
+                                Read-aloud audiobook creation.
+                            </li>
+                        </ul>
+                        <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    </div>
+                </div>
+            </div>
+            <div class="service-slider d-md-none d-block">
+                <div class="package-wrapper">
+                    <h5>
+                        Silver Package
+                    </h5>
+                    <h4>
+                        $699
+                    </h4>
+                    <p class="theme-para">
+                        BASIC EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO INTERNATIONAL BOOK
+                        PUBLISHING STANDARDS.
+                    </p>
+                    <ul>
+                        <li>
+                            Publishing on Amazon
+                        </li>
+                        <li>
+                            Ebook, and paperback
+                        </li>
+                        <li>
+                            Basic proofreading and spell check.
+                        </li>
+                        <li>
+                            Adjusting the typesetting and layout according to publishing standards.
+                        </li>
+                        <li>
+                            Basic book cover design.
+                        </li>
+                        <li>
+                            Up to 5 custom illustrations.
+                        </li>
+                        <li>
+                            Amazon optimization.
+                        </li>
+                        <li>
+                            ISBN and royalties protection for one edition.
+                        </li>
+                        <li>
+                            100% ownership rights retained by the author.
+                        </li>
+                    </ul>
+                    <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                </div>
+                <div class="package-wrapper">
+                    <h5>
+                        Gold Package
+                    </h5>
+                    <h4>
+                        $1,199
+                    </h4>
+                    <p class="theme-para">
+                        BASIC EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO INTERNATIONAL BOOK
+                        PUBLISHING STANDARDS.
+                    </p>
+                    <ul>
+                        <li>
+                            Publishing on Amazon, and Barnes & Noble
+                        </li>
+                        <li>
+                            Ebook, and paperback
+                        </li>
+                        <li>
+                            Basic proofreading and spell check.
+                        </li>
+                        <li>
+                            Adjusting the typesetting and layout according to publishing standards.
+                        </li>
+                        <li>
+                            Basic book cover design.
+                        </li>
+                        <li>
+                            Up to 8 custom illustrations.
+                        </li>
+                        <li>
+                            Amazon optimization.
+                        </li>
+                        <li>
+                            ISBN and royalties protection for one edition.
+                        </li>
+                        <li>
+                            100% ownership rights retained by the author.
+                        </li>
+                    </ul>
+                    <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                </div>
+                <div class="package-wrapper">
+                    <h5>
+                        Platinum Package
+                    </h5>
+                    <h4>
+                        $1,800
+                    </h4>
+                    <p class="theme-para">
+                        EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO INTERNATIONAL BOOK PUBLISHING
+                        STANDARDS.
+                    </p>
+                    <ul>
+                        <li>
+                            Publishing on Amazon and additional platforms like Apple Books and Barnes & Noble
+                        </li>
+                        <li>
+                            Comprehensive editing and proofreading.
+                        </li>
+                        <li>
+                            Adjusting the typesetting and layout according to publishing standards.
+                        </li>
+                        <li>
+                            Basic book cover design.
+                        </li>
+                        <li>
+                            Up to 12 custom illustrations.
+                        </li>
+                        <li>
+                            Enhanced Amazon optimization.
+                        </li>
+                        <li>
+                            Author and book profile setup.
+                        </li>
+                        <li>
+                            Finalized digital files for all editions.
+                        </li>
+                    </ul>
+                    <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-whychoose">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading why-choose-anim">
+                    Why Should You Choose Our <br>Children's Book Illustration Services?
+                </h2>
+                <p class="theme-para why-choose-anim">
+                    We work closely with you to create illustrations that match your vision and style. Here's why we're
+                    a great choice for your children's book project:
+                </p>
+            </div>
+        </div>
+        <div class="why-choose-slider why-choose-anim">
+            <div class="choose-item-box">
+                <img src="./assets/img/revision.png" class="img-fluid" loading="lazy" />
+                <h4>Revisions</h4>
+                <p class="theme-para mx-0">
+                    Our illustration artists are committed to meeting your design needs and going the extra mile. If you
+                    need any changes, our team is always ready to assist and make sure you're satisfied with the final
+                    result.
+                </p>
+            </div>
+            <div class="choose-item-box">
+                <img src="./assets/img/budget.png" class="img-fluid" loading="lazy" />
+                <h4>Budget-Friendly Options:</h4>
+                <p class="theme-para mx-0">
+                    We offer competitive pricing for every piece of artwork. No matter the budget or requirements, we
+                    ensure you get the best value for your investment.
+                </p>
+            </div>
+            <div class="choose-item-box">
+                <img src="./assets/img/creative.png" class="img-fluid" loading="lazy" />
+                <h4>Fresh, Creative Designs:</h4>
+                <p class="theme-para mx-0">
+                    Our team takes a creative approach, bringing your story to life with stylish and innovative
+                    illustrations that capture attention.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-testimonial">
+        <div class="container">
+            <div class="top-content text-center">
+                <h2 class="theme-heading white why-choose-anim">
+                    Here's What Our Customers<br>
+                    Have to Say About Our Services
+                </h2>
+            </div>
+        </div>
+        <div class="testimonial-slider why-choose-anim">
+            <div class="testimonia-item">
+                <img src="./assets/img/quote.png" class="img-fluid" loading="lazy" />
+                <p class="theme-para mx-0">
+                    We found out that someone else was using our brand's name, even though our business was older. So,
+                    we talked to these guys, and their assistance proved immensely helpful.
+                </p>
+                <div class="author-box">
+                    <img src="./assets/img/testimonial-img.png" class="img-fluid" loading="lazy" />
+                    <div class="authore-info">
+                        <h5>Maria L.</h5>
+                        <small>CEO</small>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonia-item">
+                <img src="./assets/img/quote.png" class="img-fluid" loading="lazy" />
+                <p class="theme-para mx-0">
+                    We found out that someone else was using our brand's name, even though our business was older. So,
+                    we talked to these guys, and their assistance proved immensely helpful.
+                </p>
+                <div class="author-box">
+                    <img src="./assets/img/testimonial-img.png" class="img-fluid" loading="lazy" />
+                    <div class="authore-info">
+                        <h5>Maria L.</h5>
+                        <small>CEO</small>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonia-item">
+                <img src="./assets/img/quote.png" class="img-fluid" loading="lazy" />
+                <p class="theme-para mx-0">
+                    We found out that someone else was using our brand's name, even though our business was older. So,
+                    we talked to these guys, and their assistance proved immensely helpful.
+                </p>
+                <div class="author-box">
+                    <img src="./assets/img/testimonial-img.png" class="img-fluid" loading="lazy" />
+                    <div class="authore-info">
+                        <h5>Maria L.</h5>
+                        <small>CEO</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bi-contact" id="contact" data-scroll-to-href="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="row justify-content-center align-items-start">
+                    <div class="col-lg-6 col-md-12col-sm-12 col-12">
+                        <div class="contact-img">
+                            <h2 class="theme-heading contact-anim">
+                                Still Confused? <span class="theme-color">Contact Us</span> <br>Today!
+                            </h2>
+                            <img src="./assets/img/contact-img.png" class="img-fluid contact-img" loading="lazy"/>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="contact-content">
+                            <form class="contact-form">
+                                <div class="row justify-content-center align-items-center">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 contact-anim">
+                                        <label>Nice to meet you *
+                                            <input type="text" placeholder="What is your name?" required/>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 contact-anim">
+                                        <label>Email Address *
+                                            <input type="text" placeholder="Enter your email address" required/>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 contact-anim">
+                                        <label>Phone Number 
+                                            <input type="text" placeholder="Your phone number"/>
+                                        </label>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 contact-anim">
+                                        <label>Subject *
+                                            <input type="text" placeholder="How can we help you?" required/>
+                                        </label>
+                                    </div>
+                                    <div class="col-12 contact-anim">
+                                        <label>Your Message/Query
+                                            <textarea type="text" rows="3" placeholder="Tell us more about your query"></textarea>
+                                        </label>
+                                    </div>
+                                    <div class="col-12 contact-anim">
+                                        <button class="bi-btn"> Submit </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bi-footer">
+        <div class="container">
+            <div class="row justify-content-center align-items-start">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12 footer-anim">
+                    <img src="./assets/img/footer-logo.png" class="img-fluid" loading="lazy" />
+                    <div class="d-flex gap-2 justify-content-start align-items-center social-wrapper">
+                        <a href="#">
+                            <img src="./assets/img/2.png" class="img-fluid" loading="lazy" />
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/3.png" class="img-fluid" loading="lazy" />
+                        </a>
+                        <a href="#">
+                            <img src="./assets/img/4.png" class="img-fluid" loading="lazy" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 footer-anim">
+                    <div class="footer-content-wrapper">
+                        <h5 class="text-white">
+                            Quick Links
+                        </h5>
+                        <ul>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/testimonials/">Testimonials</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/about-us/">About Us</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/portfolio/">Portfolio</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/contact-us/">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 footer-anim">
+                    <div class="footer-content-wrapper">
+                        <h5 class="text-white">
+                            Services
+                        </h5>
+                        <ul>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/ebook-writing/">eBook Ghostwriting Services</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/amazon-publishing/">Amazon eBook Publishing</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/cover-design/">Book Cover Design</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/proofreading/">Book Proofreading & Editing</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/authors-website/">Author's Website</a></li>
+                            <li><a target="_blank" href="https://americanbookpublisherz.com/book-marketing/">Book Marketing</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 col-12 footer-anim">
+                    <div class="footer-content-wrapper">
+                        <h5 class="text-white">
+                            Contact Us
+                        </h5>
+                        <ul>
+                            <li><a href="tel:8775133233">(877) 513-3233</a></li>
+                            <li><a href="mailto:info@americanbookpublisherz.com">info@americanbookpublisherz.com</a></li>
+                            <li><a href="#">Atlanta, GA</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center footer-bottom footer-anim">
+                <p class="theme-para text-white">Copyright © 2025 American Book Publisherz. All right reserved</p>
+                <div class="d-flex gap-3 align-items-center justify-content-center">
+                    <a href="#"> Terms & Conditions </a><span class="text-white">|</span>
+                    <a href="#">  Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <div class="header-logo-wrapper">
+                <img src="./assets/img/logo.png" class="img-fluid" loading="eager" />
+            </div>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="nav-wrapper">
+                <nav class="bi-nav">
+                    <ul class="d-flex mb-0 gap-5 justify-content-center align-items-center">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services" data-scroll-to>Service</a></li>
+                        <li><a href="#portfolio" data-scroll-to>Portfolio</a></li>
+                        <li><a href="#contact" data-scroll-to>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flyout-btn-wrapper">
+                <a href="#"><img src="./assets/img/header-phone.png" class="img-fluid phone-img"
+                    loading="eager " /></a>
+                <a href="#" class="bi-btn"> Chat With Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="getStarted" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 699-->
+    <div class="modal fade" id="getStarted-699" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <div class="d-flex justify-content-between align-items-center modal-price">
+                    <p class="theme-para">
+                        Silver Package
+                    </p>
+                    <p class="theme-para">
+                        $666
+                    </p>
+                </div>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 1199-->
+    <div class="modal fade" id="getStarted-1199" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <div class="d-flex justify-content-between align-items-center modal-price">
+                    <p class="theme-para">
+                        Gold Package
+                    </p>
+                    <p class="theme-para">
+                        $1199
+                    </p>
+                </div>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 1800-->
+    <div class="modal fade" id="getStarted-1800" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <div class="d-flex justify-content-between align-items-center modal-price">
+                    <p class="theme-para">
+                        Platinum Package
+                    </p>
+                    <p class="theme-para">
+                        $1800
+                    </p>
+                </div>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 1800-->
+    <div class="modal fade" id="    <div class="modal fade" id="getStarted-2600" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        " tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <div class="d-flex justify-content-between align-items-center modal-price">
+                    <p class="theme-para">
+                        Platinum Package
+                    </p>
+                    <p class="theme-para">
+                        $1800
+                    </p>
+                </div>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <!-- <script src="./assets/js/aos.js"></script> -->
+    <script src="./assets/js/tilt.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
+
+    <script>
+        (function () {
+
+            const locomotiveScroll = new LocomotiveScroll();
+
+        })();
+        function removeDataScrollIfNecessary() {
+
+            var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+            var thresholdWidth = 991; // Adjust this threshold as needed
+            var elementsWithDataScroll = document.querySelectorAll('[data-scroll]');
+            if (windowWidth < thresholdWidth) {
+
+                elementsWithDataScroll.forEach(function (element) {
+
+                    element.removeAttribute('data-scroll');
+
+                });
+            }
+        }
+
+        // Call the function initially to set the attribute based on the initial window width
+
+        removeDataScrollIfNecessary();
+        // Add an event listener to handle window resize
+        window.addEventListener('resize', removeDataScrollIfNecessary);
+
+    </script>
+
+</body>
+
+</html>
