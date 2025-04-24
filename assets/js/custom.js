@@ -114,7 +114,7 @@ $('.logos-sliders').slick({
   infinite: true,
   pauseOnFocus:false,
   pauseOnHover:false,
-  speed: 7000,
+  speed: 6000,
   autoplay:true,
   autoplaySpeed: 0,
   slidesToShow: 6,
@@ -122,11 +122,12 @@ $('.logos-sliders').slick({
   centerMode:true,
   centerPadding:"190px",
   cssEase: 'linear',
+  variableWidth: true,
   responsive: [
     {
       breakpoint: 1398,
       settings: {
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1,
         centerPadding:"190px",
       }
@@ -395,7 +396,7 @@ $('.why-choose-slider').slick({
 });
 
 $('.testimonial-slider').slick({
-  dots: false,
+  dots: true,
   arrows:false,
   infinite: true,
   pauseOnFocus:false,
