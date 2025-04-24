@@ -443,12 +443,12 @@ form .bi-btn {
     margin-top: 50px;
     font-size: 18px;
     font-weight: 600;
-    padding: 22px;
+    padding: 16px;
     position: absolute;
     bottom: 40px;
     left: 0;
     right: 0;
-    width: 310px;
+    width: 290px;
     margin-inline: auto;
 }
 .package-wrapper:hover{
@@ -695,4 +695,46 @@ body .modal .bi-form {
     margin-bottom: 25px !important;
     font-weight: 800;
     margin-top: -15px !important;
+}
+.bi-alertbox {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    max-width: 320px;
+    background-color: #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: .5s;
+    z-index: 999;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+}
+.bi-alertbox.active{
+    opacity: 1;
+}
+.bi-alertbox .d-flex {
+    gap: 15px;
+}
+.alertbox-content {
+    font-size: 14px;
+}
+.alertbox-content small {
+    font-size: 12px;
+    font-weight: 300;
+    color: #848484;
+}
+.alertbox-content p {
+    margin-bottom: 10px;
+}
+.alert-logo {
+    padding: 10px;
+    background-color: #F2F2F2;
+    border-radius:10px;
+    margin-left:-3px;
+}
+div#lcqualitybadge {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index:999;
 }

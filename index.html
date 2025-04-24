@@ -12,7 +12,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
-    <link rel='shortcut icon' href='./assets/img/favicon.webp' type='image/x-icon'>
+    <link rel='shortcut icon' href='./assets/img/alert-log.png' type='image/x-icon'>
     <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -145,8 +145,9 @@
     </style>
 </head>
 
-<body>
+<body class="position-relative">
 
+    <div id="lcqualitybadge"></div>
     <header class="bi-header">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
@@ -173,7 +174,7 @@
         </div>
     </header>
 
-    <section class="bi-hero d-flex flex-column justify-content-center align-items-center">
+    <section class="bi-hero d-flex flex-column justify-content-center align-items-center position-relative">
         <img src="./assets/img/hero-left-img.png"class="img-fluid hero-img left" loading="eager"/>
         <img src="./assets/img/hero-right-img.png" class="img-fluid hero-img right" loading="eager" />
         <div class="container text-center h-100">
@@ -515,7 +516,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
                     <div class="package-wrapper">
                         <h5>
-                            Titanum Package
+                            Titanium Package
                         </h5>
                         <h4>
                             $3,800
@@ -556,7 +557,8 @@
                                 Comprehensive social media marketing plan.
                             </li>
                         </ul>
-                        <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-3800"
+                        class="bi-btn d-block text-center package-btn"> Get Start</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 pack-box-anim">
@@ -633,7 +635,8 @@
                                 Read-aloud audiobook creation.
                             </li>
                         </ul>
-                        <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-12000"
+                        class="bi-btn d-block text-center package-btn"> Get Start</a>
                     </div>
                 </div>
             </div>
@@ -678,7 +681,8 @@
                             100% ownership rights retained by the author.
                         </li>
                     </ul>
-                    <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-699"
+                    class="bi-btn d-block text-center package-btn"> Get Start</a>
                 </div>
                 <div class="package-wrapper">
                     <h5>
@@ -720,7 +724,8 @@
                             100% ownership rights retained by the author.
                         </li>
                     </ul>
-                    <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-1199"
+                    class="bi-btn d-block text-center package-btn"> Get Start</a>
                 </div>
                 <div class="package-wrapper">
                     <h5>
@@ -759,7 +764,170 @@
                             Finalized digital files for all editions.
                         </li>
                     </ul>
-                    <a href="#" class="bi-btn d-block text-center package-btn"> Get Start</a>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-1800"
+                    class="bi-btn d-block text-center package-btn"> Get Start</a>
+                </div>
+                <div class="package-wrapper">
+                    <h5>
+                        Diamond Package
+                    </h5>
+                    <h4>
+                        $2,600
+                    </h4>
+                    <p class="theme-para">
+                        EDITING, FORMATTING, SPELL CHECK & TYPESETTING 
+                        ACCORDING TO INTERNATIONAL BOOK PUBLISHING STANDARDS.
+                    </p>
+                    <ul>
+                        <li>
+                            Publishing on Amazon (eBook, paperback, hardcover) and additional 
+                            platforms like Apple Books, Barnes & Noble,Ingram Spark, and 
+                            children's book platforms like KidLit.
+                        </li>
+                        <li>
+                            Professional editing, comprehensive proofreading, and spell check. Adjusting 
+                            the typesetting and layout according to publishing standards.
+                        </li>
+                        <li>
+                            High-quality custom book cover design.
+                        </li>
+                        <li>
+                            Up to 20 custom illustrations.
+                        </li>
+                        <li>
+                            Advanced Amazon optimization. Author and book profile setup.
+                        </li>
+                        <li>
+                            Finalized digital files for all editions.
+                        </li>
+                        <li>
+                            ISBN and royalties protection for three editions.
+                        </li>
+                    </ul>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-2600"
+                    class="bi-btn d-block text-center package-btn"> Get Start</a>
+                </div>
+                <div class="package-wrapper">
+                    <h5>
+                        Titanium Package
+                    </h5>
+                    <h4>
+                        $3,800
+                    </h4>
+                    <p class="theme-para">
+                        EDITING, FORMATTING, SPELL CHECK & TYPESETTING ACCORDING TO 
+                        INTERNATIONAL BOOK PUBLISHING STANDARDS.
+                    </p>
+                    <ul>
+                        <li>
+                            Publishing on Amazon (eBook, paperback, hardcover) and additional platforms 
+                            like Apple Books, Barnes & Noble Press, Ingram Spark, and children's book 
+                            platforms like KidLit and 3 more platforms.
+                        </li>
+                        <li>
+                            Professional editing, comprehensive proofreading, and spell check. 
+                            Adjusting the typesetting and layout according to publishing standards.
+                        </li>
+                        <li>
+                            High-quality custom book cover design.
+                        </li>
+                        <li>
+                            Up to 25 custom illustrations.
+                        </li>
+                        <li>
+                            Advanced Amazon optimization. Author and book profile setup.
+                        </li>
+                        <li>
+                            Finalized digital files for all editions.
+                        </li>
+                        <li>
+                            Enhanced author website setup with custom features.
+                        </li>
+                        <li>
+                            One months of social media management.
+                        </li>
+                        <li>
+                            Comprehensive social media marketing plan.
+                        </li>
+                    </ul>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-3800"
+                    class="bi-btn d-block text-center package-btn"> Get Start</a>
+                </div>
+                <div class="package-wrapper">
+                    <h5>
+                        Horizon Package
+                    </h5>
+                    <h4>
+                        $12,000
+                    </h4>
+                    <p class="theme-para">
+                        EDITING, FORMATTING, SPELL CHECK & TYPESETTING 
+                        ACCORDING TO INTERNATIONAL BOOK PUBLISHING STANDARDS.
+                    </p>
+                    <ul>
+                        <li>
+                            Publishing on Amazon (eBook, paperback, hardcover) and all major 
+                            platforms including Apple Books, Google Books, Barnes & Noble Press, 
+                            Lulu, Ingram Spark, and children's book platforms like KidLit, 
+                            BookBub, and Goodreads.
+                        </li>
+                        <li>
+                            Adjusting the typesetting and layout according to publishing standards.
+                        </li>
+                        <li>
+                            Exclusive, high-quality custom book cover design.
+                        </li>
+                        <li>
+                            40 custom illustrations.
+                        </li>
+                        <li>
+                            Illustration storyboard creation.
+                        </li>
+                        <li>
+                            Professional-grade Amazon optimization.
+                        </li>
+                        <li>
+                            Author and book profile setup.
+                        </li>
+                        <li>
+                            Finalized digital files for all editions.
+                        </li>
+                        <li>
+                            High-production value book trailer video creation.
+                        </li>
+                        <li>
+                            Extensive social media marketing plan and execution.
+                        </li>
+                        <li>
+                            Six months of social media management.
+                        </li>
+                        <li>
+                            Press release and media outreach.
+                        </li>
+                        <li>
+                            Email marketing campaign setup and management.
+                        </li>
+                        <li>
+                            SEO optimization for the author website.
+                        </li>
+                        <li>
+                            Participation in book fairs and literary events (entry fees included).
+                        </li>
+                        <li>
+                            Personal marketing and PR manager for six months.
+                        </li>
+                        <li>
+                            Writing and research assistance.
+                        </li>
+                        <li>
+                            Sales guarantee of 5,000 copies within the first six months.
+                        </li>
+                        <li>
+                            Read-aloud audiobook creation.
+                        </li>
+                    </ul>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#getStarted-12000"
+                    class="bi-btn d-block text-center package-btn"> Get Start</a>
                 </div>
             </div>
         </div>
@@ -1137,9 +1305,8 @@
         </div>
     </div>
 
-    <!-- Modal 1800-->
-    <div class="modal fade" id="    <div class="modal fade" id="getStarted-2600" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        " tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Modal 2600-->
+    <div class="modal fade" id="getStarted-2600" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
@@ -1154,10 +1321,78 @@
                 </p>
                 <div class="d-flex justify-content-between align-items-center modal-price">
                     <p class="theme-para">
-                        Platinum Package
+                        Diamond Package
                     </p>
                     <p class="theme-para">
-                        $1800
+                        $2600
+                    </p>
+                </div>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 3800-->
+    <div class="modal fade" id="getStarted-3800" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <div class="d-flex justify-content-between align-items-center modal-price">
+                    <p class="theme-para">
+                        Titamium Package
+                    </p>
+                    <p class="theme-para">
+                        $3800
+                    </p>
+                </div>
+                <form class="bi-form">
+                    <input type="text" placeholder="Enter Your Name" name="name" required="">
+                    <input type="email" placeholder="Enter Your Email" name="email" required="">
+                    <input type="tel" placeholder="Enter Your Number" name="number" required="">
+                    <textarea rows="3" placeholder="Enter Your Message" name="message"></textarea>
+                    <button class="bi-btn mx-auto">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 12000-->
+    <div class="modal fade" id="getStarted-12000" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <h2 class="theme-heading">
+                    Let's Get Your Story <span class="theme-color">Started!</span>
+                </h2>
+                <p class="theme-para">
+                    Just a few details and we'll take it from there.
+                </p>
+                <div class="d-flex justify-content-between align-items-center modal-price">
+                    <p class="theme-para">
+                        Horizon Package
+                    </p>
+                    <p class="theme-para">
+                        $12000
                     </p>
                 </div>
                 <form class="bi-form">
@@ -1173,8 +1408,25 @@
     </div>
 
 
+    <div class="bi-alertbox">
+        <div class="d-flex justify-content-start align-items-start">
+            <img src="./assets/img/alert-log.png" class="img-fluid alert-logo" loading="lazy" />
+            <div class="alertbox-content">
+                <p><b id="alert-name">Lily P.</b> signed up for<br>
+                    <b id="alert-package">Ultimate Brand Dominance</b>
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small id="alert-hour">2 hours ago</small>
+                    <img src="./assets/img/alertbox-check.png" class="img-fluid" loading="lazy" />
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    
+    <script async src="https://cdn.livechatinc.com/qb/qb-18697905-light-160.js"></script>
     <!-- <script src="./assets/js/aos.js"></script> -->
     <script src="./assets/js/tilt.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>

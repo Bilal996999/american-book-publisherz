@@ -1,3 +1,115 @@
+const data = [
+  {
+      name: 'Ava Johnson',
+      packageName: 'Silver Package',
+      time: '4 hours ago'
+  },
+  {
+      name: 'Liam Parker',
+      packageName: 'Gold Package',
+      time: '2 days ago'
+  },
+  {
+      name: 'Sophia Martinez',
+      packageName: 'Platinum Package',
+      time: '1 week ago'
+  },
+  {
+      name: 'Noah Wilson',
+      packageName: 'Diamond Package',
+      time: '3 hours ago'
+  },
+  {
+      name: 'Olivia Brown',
+      packageName: 'Titanum Package',
+      time: '6 days ago'
+  },
+  {
+      name: 'Mason Thompson',
+      packageName: 'Horizon Package',
+      time: '1 day ago'
+  },
+  {
+      name: 'Isabella White',
+      packageName: 'Silver Package',
+      time: '2 hours ago'
+  },
+  {
+      name: 'Ethan Harris',
+      packageName: 'Gold Package',
+      time: '5 days ago'
+  },
+  {
+      name: 'Mia Clark',
+      packageName: 'Platinum Package',
+      time: '1 week ago'
+  },
+  {
+      name: 'James Lewis',
+      packageName: 'Diamond Package',
+      time: '3 days ago'
+  },
+  {
+      name: 'Amelia Young',
+      packageName: 'Titanium Package',
+      time: '4 days ago'
+  },
+  {
+      name: 'Charlotte Allen',
+      packageName: 'Silver Package',
+      time: '9 hours ago'
+  },
+  {
+      name: 'Elijah King',
+      packageName: 'Gold Package',
+      time: '2 weeks ago'
+  },
+  {
+      name: 'Emily Scott',
+      packageName: 'Platinum Package',
+      time: '5 hours ago'
+  },
+  {
+      name: 'Lucas Green',
+      packageName: 'Diamond Package',
+      time: '2 days ago'
+  },
+]
+
+
+const alertBox = document.querySelector(".bi-alertbox");
+
+const alertName = document.getElementById("alert-name");
+const alertPackage = document.getElementById("alert-package");
+const alertHour = document.getElementById("alert-hour");
+
+
+alertBox.style.transition = "opacity 0.5s ease";
+alertBox.style.opacity = 1;
+
+function showAlertCycle() {
+  const random = data[Math.floor(Math.random() * data.length)];
+
+  alertName.textContent = random.name;
+  alertPackage.textContent = random.packageName;
+  alertHour.textContent = random.time;
+
+  alertBox.style.opacity = 1;
+
+  setTimeout(() => {
+    alertBox.style.opacity = 0;
+
+    // Wait 3 seconds, then show a new alert
+    setTimeout(showAlertCycle, 8000);
+  }, 4000); // Visible for 4 seconds
+}
+
+// Start the loop
+showAlertCycle();
+
+
+
+
 $('.portfolio-slider-1').slick({
   dots: false,
   arrows:false,
